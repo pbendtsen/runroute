@@ -382,7 +382,7 @@ function App() {
         {/* <HStack spacing={1} justifyContent='space-between'> */}
           <Box flexGrow={1}>
             <Autocomplete>
-              <Input type='text' placeholder='Start' w={230} ref={originRef} />
+              <Input type='text' placeholder='StartHej' w={230} ref={originRef} />
             </Autocomplete>
           </Box>
         <HStack spacing={1} justifyContent='space-between' paddingTop={3}>
