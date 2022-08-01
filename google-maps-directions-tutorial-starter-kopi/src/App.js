@@ -30,7 +30,7 @@ import logo5 from './run5.png'
 
 let center = {lat: 55.69941250499677, lng: 12.588798916075621}
 
-Geocode.setApiKey("AIzaSyDRGKx5KEMfI8PcUOrZeVkb2yjeuGadaIk");
+Geocode.setApiKey(""); //indsæt API
 
 Geocode.setLanguage("en");
 
@@ -93,7 +93,7 @@ function App() {
 
   const {isLoaded} = useJsApiLoader({
     // googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
-    googleMapsApiKey: 'AIzaSyDRGKx5KEMfI8PcUOrZeVkb2yjeuGadaIk',
+    googleMapsApiKey: '', //indsæt API
     libraries: ['places'],
   })
 
